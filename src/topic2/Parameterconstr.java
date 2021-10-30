@@ -4,7 +4,7 @@ public class Parameterconstr {
 	String language;
 	Parameterconstr(String lan) {
 		language = lan;
-		System.out.println(language + " "
+		System.out.println(language +  "  "
 				+ "programming language.");
 	}
 	public static void main(String[] args) {
