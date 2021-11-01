@@ -7,7 +7,8 @@ public class Continu {
 			System.out.println(i);
 			i++;
 			if(i==4){
-				continue;}
+				continue;
+				}
 			}
 
 	}

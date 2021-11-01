@@ -1,15 +1,15 @@
 package topic3;
 abstract class Vehicle{
-	Vehicle() {
+	 Vehicle() {//the method should be in public void vehicle
 		System.out.println("car,bus,bike");
 	}
 	abstract void car();
-	void bike() {
+	public void bike() {//public void bike()
 		System.out.println("bike has two wheels");
 	}
 }
 class V extends Vehicle {
-	void car() {
+	public void car() {//public void car()
 		System.out.println("car has four wheels");
 	}
 	
