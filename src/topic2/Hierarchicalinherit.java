@@ -1,16 +1,16 @@
 package topic2;
 class Flowers {
-	void color() {
+	void color() {//public void color()
 		System.out.println("Flowers are in different colors");
 	}
 }
 class Rose extends Flowers {
-	void rose() {
+	void rose() {//public void rose()
 		System.out.println( "color of Rose is rose");
 	}
 }
 class Lilly extends Flowers {
-	void white() {
+	void white() {//public void white()
 		System.out.println("color of Lilly is white");
 	}
 }

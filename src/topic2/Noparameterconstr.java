@@ -2,7 +2,7 @@ package topic2;
 
 class Noparameterconstr {
 	int i;
-	private Noparameterconstr() {
+	 Noparameterconstr() {//using private Noparameterconstr()
 		i=25;
 		System.out.println("Constructor is called:");
 	}

@@ -1,6 +1,6 @@
 package topic3;
 
-public class Enm {
+public class Enm {//using Enum
 	public enum Day {SUNDAY,MONDAY,TUESDAY,WEDNESDAY,THURSDAY,FRIDAY,SATURDAY}
 
 	public static void main(String[] args) {

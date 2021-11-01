@@ -1,7 +1,7 @@
 package topic2;
 
 class Set {
-	 String name;
+	 String name;//you can also use private String name;
 	public String GetName() {
 		return name;
 	}

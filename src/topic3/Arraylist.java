@@ -10,7 +10,7 @@ public class Arraylist {
 	    cars.add("Ford");
 	    cars.add("Mazda");
 	    for (String i : cars) {
-	      System.out.println(i);
+	      System.out.println(i);//System.out.print(i);
 	    }
 	  }
 	}

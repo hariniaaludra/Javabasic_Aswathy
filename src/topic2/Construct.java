@@ -1,10 +1,10 @@
 package topic2;
 
 public class Construct {
-	String name;
+	String name;// you can also use private String name;
 	Construct() {
 		System.out.println("Constructor called");
-		name = "default";
+		name = "default";// you can also use String name="default";
 	}
 public static void main(String[] args) {
 	Construct obj = new Construct();

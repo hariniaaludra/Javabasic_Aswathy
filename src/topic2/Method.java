@@ -1,7 +1,7 @@
 package topic2;
 
 public class Method {
-	static int Method(int x,int y)
+	static int Method(int x,int y)//method should be in small letter static int method(int x,int y)
 	{
 	return (x+y);
 	}

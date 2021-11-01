@@ -1,6 +1,6 @@
 package topic3;
-interface Interface {
-	void print();
+interface Interface {//there is no main class in this program use main class
+	void print();//you can also use public void print()
 }
 class Facebook implements Interface {
 	 public void print() {

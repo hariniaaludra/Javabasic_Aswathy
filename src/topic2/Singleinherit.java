@@ -1,12 +1,12 @@
 package topic2;
 class Employee {
-	void salary() {
+	void salary() {//public void
 		float s = 20000;
 		System.out.println("Employee salary is " + s);
 	}
 }
 class Programmer extends Employee {
-	void bonus() {
+	void bonus() {//public void
 		float b = 5000;
 		System.out.println("Programmer salary is " + b);
 		}
