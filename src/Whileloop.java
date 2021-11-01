@@ -1,4 +1,4 @@
-public class Wloop {//the name should be in WhileLoop
+public class Whileloop {//the name should be in WhileLoop
 
 	public static void main(String[] args) {
 		int i =1;

@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Userinput {
 
 	public static void main(String[] args) {
-		Scanner myobj =new Scanner(System.in);
+		Scanner myobj = new Scanner(System.in);
 		System.out.print("Enter your name:");
 		String name = myobj.nextLine();
 		System.out.print("Enter your age:");

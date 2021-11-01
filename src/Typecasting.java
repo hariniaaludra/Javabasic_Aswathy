@@ -1,5 +1,5 @@
 
-public class Typcas {//give a full name in a class Typecasting
+public class Typecasting {//give a full name in a class Typecasting
 
 	public static void main(String[] args) {
 	    int a = 19;
