@@ -1,8 +1,8 @@
 package topic2;
 
 public class Parameterconstr {
-	String language;
-	Parameterconstr(String lan) {
+	 String language;
+	 Parameterconstr(String lan) {
 		language = lan;
 		System.out.println(language +  "  "
 				+ "programming language.");

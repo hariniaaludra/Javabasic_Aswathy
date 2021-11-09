@@ -1,10 +1,10 @@
 package topic3;
 interface A1 {
-	void one();
+	public void one();
 }
 abstract class A2 implements A1 {
 	abstract void Two();
-	void three () {
+	public void three () {
 		System.out.println("hi three");
 	}
 }

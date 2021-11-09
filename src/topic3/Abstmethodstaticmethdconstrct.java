@@ -4,12 +4,12 @@ abstract class Vehicle{
 		System.out.println("car,bus,bike");
 	}
 	abstract void car();
-	void bike() {
+	public void bike() {
 		System.out.println("bike has two wheels");
 	}
 }
 class V extends Vehicle {
-	void car() {
+	public void car() {
 		System.out.println("car has four wheels");
 	}
 	

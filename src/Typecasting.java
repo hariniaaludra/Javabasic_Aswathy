@@ -1,5 +1,5 @@
 
-public class Typcas {
+public class Typecasting {
 
 	public static void main(String[] args) {
 		int a = 19;

@@ -3,12 +3,12 @@ abstract class Shape {
 	abstract void draw();
 }
 class Rectangle extends Shape {
-	void draw() {
+	public void draw() {
 		System.out.println("Draw rectangle");
 	}
 }
 class Triangle extends Shape {
-		void draw() {
+		public void draw() {
 			System.out.println("Draw square");
 		}
 	}

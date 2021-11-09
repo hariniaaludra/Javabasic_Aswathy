@@ -3,7 +3,7 @@ class Class1 {
 	  public static void task(int p,int q) {
 		System.out.println(p+q);
 		}
-	  int formula(int a,int b)
+	  public int formula(int a,int b)
 	{
 		return a+b;
 	}
