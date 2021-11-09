@@ -3,7 +3,11 @@ class Class1 {
 	  public static void task(int p,int q) {
 		System.out.println(p+q);
 		}
+<<<<<<< HEAD
 	  public int formula(int a,int b)
+=======
+	  public int formula(int a,int b)//also use public int formula(int a,int b)
+>>>>>>> 1917372b731019b674b4f90476ea13687c02b38a
 	{
 		return a+b;
 	}

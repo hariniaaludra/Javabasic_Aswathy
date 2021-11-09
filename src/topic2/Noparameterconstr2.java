@@ -2,7 +2,7 @@ package topic2;
 
 class Noparameterconstr2 {
 	int abc;
-	public Noparameterconstr2() {
+	 public Noparameterconstr2() {//using public Noparameterconstr2()
 		abc = 9;	
 	}
 }

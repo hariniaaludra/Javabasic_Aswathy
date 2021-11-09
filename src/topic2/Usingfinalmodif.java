@@ -8,8 +8,7 @@ public static void main(String[] args) {
 	ob.num1=20;
 	ob.num2=5;
 	System.out.println(ob.num1);
-	System.out.println(ob.num2
-			);
+	System.out.println(ob.num2);
 	
 }
 }
