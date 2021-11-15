@@ -1,7 +1,7 @@
 package com.synchro;
 
-class Table{  
-	 synchronized void printTable(int n){//synchronized method  
+class Table1{  
+	void printTable(int n){// nonsynchronized method  
 	   for(int i=1;i<=5;i++){  
 	     System.out.println(n*i);  
 	     try{  
@@ -12,9 +12,9 @@ class Table{
 	 }  
 	}  
 	  
-	class MyThread1 extends Thread{  
+	class MyThread11 extends Thread{  
 	Table t;  
-	MyThread1(Table t){  
+	MyThread11(Table t){  
 	this.t=t;  
 	}  
 	public void run(){  
@@ -22,18 +22,17 @@ class Table{
 	}  
 	  
 	}  
-	class MyThread2 extends Thread{  
+	class MyThread12 extends Thread{  
 	Table t;  
-	MyThread2(Table t){  
+	MyThread12(Table t){  
 	this.t=t;  
 	}  
 	public void run(){  
 	t.printTable(100);  
 	}  
 	}  
-	  
 	
-public class Example1 {
+public class Nonsynchronizedexample { // class name is changed
 
 	public static void main(String[] args) {
 		Table obj = new Table();//only one object  

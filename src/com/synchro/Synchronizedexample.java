@@ -1,38 +1,41 @@
 package com.synchro;
 
-class Table1{  
-	void printTable(int n){//synchronized method  
+class Table{  
+	 synchronized void printTable(int n){//synchronized method  
 	   for(int i=1;i<=5;i++){  
 	     System.out.println(n*i);  
 	     try{  
-	      Thread.sleep(400);  
+	      Thread.sleep(400);
 	     }catch(Exception e){System.out.println(e);}  
 	   }  
 	  
 	 }  
 	}  
 	  
-	class MyThread11 extends Thread{  
+	class MyThread1 extends Thread{  
 	Table t;  
-	MyThread11(Table t){  
+	MyThread1(Table t){  
 	this.t=t;  
 	}  
+	@Override // it easily check the overriding method
 	public void run(){  
 	t.printTable(5);  
 	}  
 	  
 	}  
-	class MyThread12 extends Thread{  
+	class MyThread2 extends Thread{  
 	Table t;  
-	MyThread12(Table t){  
+	MyThread2(Table t){  
 	this.t=t;  
 	}  
+	@Override // it easily check the overriding method
 	public void run(){  
 	t.printTable(100);  
 	}  
 	}  
+	  
 	
-public class Example1nonsyncho {
+public class Synchronizedexample { // class named is changed
 
 	public static void main(String[] args) {
 		Table obj = new Table();//only one object  

@@ -15,7 +15,7 @@ public class Multiplecatch {
                {  
                 System.out.println("ArrayIndexOutOfBounds Exception occurs");  
                }    
-            catch(Exception e)  
+            catch(NullPointerException e)  // exception name is defined
                {  
                 System.out.println("Parent Exception occurs");  
                }             

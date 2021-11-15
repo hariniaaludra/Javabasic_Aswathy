@@ -3,7 +3,7 @@ package hackerranker;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-public class ExcePtion1 {
+public class ExceptionExample { // class name should be proper
 	 public static void main(String[] args) {
 	 try {
 	        Scanner obj=new Scanner (System.in);

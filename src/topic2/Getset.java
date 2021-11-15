@@ -5,7 +5,7 @@ class Set {
 
     private String name;//you can also use private String name;
 
-	public String GetName() {
+	public String getName() { //method name start with lowercase
 		return name;
 	}
 	public void SetName(String Nname) {
@@ -17,6 +17,6 @@ public class Getset {
 	public static void main(String[] args) {
 	Set Obja = new Set();
 	Obja.SetName("java");
-	System.out.println(Obja.GetName());
+	System.out.println(Obja.getName());
 }
 }

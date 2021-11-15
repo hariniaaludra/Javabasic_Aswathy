@@ -2,7 +2,7 @@ package hackerranker;
 
 import java.util.Scanner;
 
-public class String1 {
+public class StringProgram { // class name is changed
 	public static void main(String[] args) {
 	Scanner sc=new Scanner(System.in);
 	String a=sc.next();

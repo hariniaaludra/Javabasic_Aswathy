@@ -16,7 +16,7 @@ public class Student {
 		return rollno + " " + name + " " + city;
 	}
 
-	public static void main(String args[]) {
+	public static void main(String[] args) {// array designator should declare in datatype
 		Student s1 = new Student(101, "Raj", "lucknow");
 		Student s2 = new Student(102, "Vijay", "ghaziabad");
 

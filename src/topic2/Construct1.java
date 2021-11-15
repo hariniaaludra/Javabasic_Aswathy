@@ -1,7 +1,7 @@
 package topic2;
 
 public class Construct1 {
-	public String name;
+	private String name; // it should declare in private
 	public Construct1() {
 		System.out.println("Constructor called");
 		String name = "default";

@@ -3,7 +3,7 @@ package hackerranker;
 import java.util.HashMap;
 import java.util.Scanner;
 
-public class Map1 {
+public class MapExample {
 	public static void main(String []argh)
 	{
         HashMap<String,Integer> map = new HashMap<String,Integer>();

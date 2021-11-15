@@ -20,7 +20,7 @@ class MyCalculator {
 
 
    
-public class ExecPtion2 {
+public class ExecptionSample {
 
 	 public static final MyCalculator my_calculator = new MyCalculator();
 	    public static final Scanner in = new Scanner(System.in);

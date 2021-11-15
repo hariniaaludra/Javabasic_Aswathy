@@ -12,7 +12,7 @@ public class Task4 implements Task4Interface {
 		}
 		
 		public void mul(int a,int b) {
-			System.out.println("a*b=" + (a*b));//using increment operator ("a*b=" + (a*b++));
+			System.out.println("a*b=" + (a*b));    //using increment operator ("a*b=" + (a*b++));
 		}
 		
 		public void div(int a,int b) {
