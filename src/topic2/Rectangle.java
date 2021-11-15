@@ -2,11 +2,10 @@ package topic2;
 
 class Area {
 	int len,wid;
-<<<<<<< HEAD
-	public void insert(int i,int w) {
-=======
+
+
 	public void insert(int i,int w) {// you can also use public void insert(int i,int w)
->>>>>>> 1917372b731019b674b4f90476ea13687c02b38a
+
 	len=i;
 	wid=w;
 }

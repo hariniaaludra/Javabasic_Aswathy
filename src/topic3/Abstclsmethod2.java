@@ -3,20 +3,14 @@ abstract class Bank {
 	abstract int interest();
 }
 class Sbi extends Bank {
-<<<<<<< HEAD
 	public int interest() {
-=======
-	 public int interest() {//you can also use public int interest()
->>>>>>> 1917372b731019b674b4f90476ea13687c02b38a
+		
 		return 7;
 	}
 }
 class Hdfc  extends Bank {
-<<<<<<< HEAD
 	public int interest() {
-=======
-	public int interest() {//public int interest()
->>>>>>> 1917372b731019b674b4f90476ea13687c02b38a
+
 		return 9;
 	}
 }

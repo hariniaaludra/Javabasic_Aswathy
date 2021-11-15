@@ -1,10 +1,7 @@
 package topic3;
 
-<<<<<<< HEAD:src/topic3/Enum.java
 public class Enum {
-=======
-public class Enum {//using Enum
->>>>>>> 1917372b731019b674b4f90476ea13687c02b38a:src/topic3/Enm.java
+
 	public enum Day {SUNDAY,MONDAY,TUESDAY,WEDNESDAY,THURSDAY,FRIDAY,SATURDAY}
 
 	public static void main(String[] args) {

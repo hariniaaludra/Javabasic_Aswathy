@@ -3,20 +3,15 @@ abstract class Shape {
 	abstract void draw();
 }
 class Rectangle extends Shape {
-<<<<<<< HEAD
-	public void draw() {
-=======
-	 public void draw() {//you can also use public void 
->>>>>>> 1917372b731019b674b4f90476ea13687c02b38a
+
+	public void draw() {//you can also use public void 
+
 		System.out.println("Draw rectangle");
 	}
 }
 class Triangle extends Shape {
-<<<<<<< HEAD
-		public void draw() {
-=======
+
 		 public void draw() {//public void
->>>>>>> 1917372b731019b674b4f90476ea13687c02b38a
 			System.out.println("Draw square");
 		}
 	}

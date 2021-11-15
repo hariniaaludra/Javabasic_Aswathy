@@ -1,11 +1,10 @@
 package topic2;
 
 class Set {
-<<<<<<< HEAD
-	private String name;
-=======
+	int A;
+
     private String name;//you can also use private String name;
->>>>>>> 1917372b731019b674b4f90476ea13687c02b38a
+
 	public String GetName() {
 		return name;
 	}
