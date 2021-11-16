@@ -37,6 +37,7 @@ public class IntToString {
 		public static void forbidExit() {
 		  @SuppressWarnings("deprecation")
 		final SecurityManager securityManager = new SecurityManager() {
+		   @Override
 		   public void checkPermission(Permission permission) {
 		    if (permission.getName().contains("exitVM")) {
 		     throw new ExitTrappedException();

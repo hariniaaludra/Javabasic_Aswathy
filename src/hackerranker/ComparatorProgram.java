@@ -24,7 +24,7 @@ class Player{
     }
 }
     
-public class Comparator1 {
+public class ComparatorProgram { //class name is changed
 	public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         int n = scan.nextInt();
@@ -39,7 +39,7 @@ public class Comparator1 {
      
         Arrays.sort(player, checker);
         for(int i = 0; i < player.length; i++){
-            System.out.printf("%s %s\n", player[i].name, player[i].score);
+            System.out.printf("%s  %s \n", player[i].name, player[i].score);
         }
     }
 }

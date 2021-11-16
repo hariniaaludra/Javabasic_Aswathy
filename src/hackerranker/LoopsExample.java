@@ -2,7 +2,7 @@ package hackerranker;
 
 import java.util.Scanner;
 
-public class Loops1 {
+public class LoopsExample { // use properclass name
 	public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
        int n = in.nextInt();

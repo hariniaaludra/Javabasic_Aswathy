@@ -7,10 +7,10 @@ public class Arraylist {
 	 public static void main(String[] args) {
 	        Scanner obj = new Scanner (System.in);
 	        int n=obj.nextInt();
-	        ArrayList<ArrayList<Integer>> array = new ArrayList<>();
+			ArrayList<ArrayList<Integer>> array = new ArrayList<>();
 	        for(int i=0;i<n;++i){
 	            int m=obj.nextInt();
-	            ArrayList<Integer> a1 = new ArrayList<Integer>();
+	            ArrayList<Integer> a1 = new ArrayList<>();
 	            for(int j=0;j<m;++j){
 	               a1.add(obj.nextInt());
 	            }

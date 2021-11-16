@@ -1,10 +1,10 @@
 package exceptionhandling;
 
-public class multiplecatch1 {
+public class Multiplecatch1 { //class named changed 
 
 	public static void main(String[] args) {
 		try {
-			int a[] = new int[5];
+			int[] a = new int[5];// array type(eg:[]) should decalre in datatype not in variable
 			a[5] = 30 / 0;
 			System.out.println(a[10]);
 		} catch (ArithmeticException e) {

@@ -1,6 +1,6 @@
 package stringhandling;
 
-public class Substring1 {
+public class SubstringProgram {// class name is changed
 
 	public static void main(String[] args) {
 		String s = "SachinTendulkar";
