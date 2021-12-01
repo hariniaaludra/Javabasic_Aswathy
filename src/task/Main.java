@@ -11,26 +11,25 @@ class Enumtask {
 			this.symbol = symbol;
 		}
 
-		public static void checkcountry(String name) {
+		public static Currency checkcountry(String name) {
 			for (Currency value : Currency.values()) {
 				if (value.country.contentEquals(name)) {
 					System.out.println(value);
-				} else {
-					System.out.println("invalid symbol");
-				}
 			}
 		}
+			return null;
 
 	}
 }
 
 public class Main {
 
-	public static void main(String[] args) {
-		// Enumtask.Currency.checkcountry("#");
+	public void main(String[] args) {
+		Enumtask.Currency.checkcountry("#");
 		Enumtask.Currency.checkcountry("$");
-		// Enumtask.Currency.checkcountry("%");
+		Enumtask.Currency.checkcountry("%");
 
 	}
 
+}
 }
