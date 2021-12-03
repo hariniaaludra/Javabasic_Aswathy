@@ -26,8 +26,8 @@ public class LoopsApp {
         }
         System.out.println();
 
-        for (int k = 1; k<=5; k++){
-            for (int l = 1; l<=2; l++){
+        for (int k = 1; k<=10; k++){
+            for (int l = 1; l<=k; l++){
                 System.out.println("k=" + k + " l=" + l + " BEING RIGHT SUCKS");
             }
         }
